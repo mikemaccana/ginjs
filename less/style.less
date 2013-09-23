@@ -42,9 +42,36 @@ a, a:hover, a:active, a:visited {
   }
 }
 
-nav {
+nav.horizontal {
+  display: block;
+  width: 100%;
+  background: @gingreen;
+  overflow: hidden;
+  ul, li {
+    list-style: none;
+  }
+  ul {
+    overflow: hidden;
+    margin: 5px 0;
+  }
+  li {
+    float: left;
+    margin: 0 30px;
+  }
+  a, a:hover, a:active, a:visited {
+    color: whiteSmoke;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+  }
+  @media (max-width: 770px) {
+    display: none;
+  }
+}
+
+nav.vertical {
   margin-left: -@sidebar-width;
-  width: @sidebar-width;
+  width: 0;
   position: fixed;
   top: 0;
   left: @sidebar-width;
@@ -100,10 +127,18 @@ strong {
   color: @ginred;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 body {
-  padding-left: @sidebar-width;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/triangle.jpg");
+
+  padding-left: 0;
   left: 0;
-  background-image:url("../images/lil_fiber.png");
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
@@ -120,8 +155,6 @@ body {
       .transform(translateX(@sidebar-width));
     }
   }
-  padding: 20px;
-  max-width: 700px;
 }
 
 h1 img {
@@ -175,7 +208,7 @@ li {
 
 p {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 20px;
   line-height: 22px;
 }
 

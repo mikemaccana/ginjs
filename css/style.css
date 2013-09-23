@@ -388,9 +388,41 @@ a:visited {
     left: 150px;
   }
 }
-nav {
+nav.horizontal {
+  display: block;
+  width: 100%;
+  background: #003700;
+  overflow: hidden;
+}
+nav.horizontal ul,
+nav.horizontal li {
+  list-style: none;
+}
+nav.horizontal ul {
+  overflow: hidden;
+  margin: 5px 0;
+}
+nav.horizontal li {
+  float: left;
+  margin: 0 30px;
+}
+nav.horizontal a,
+nav.horizontal a:hover,
+nav.horizontal a:active,
+nav.horizontal a:visited {
+  color: whiteSmoke;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+}
+@media (max-width: 770px) {
+  nav.horizontal {
+    display: none;
+  }
+}
+nav.vertical {
   margin-left: -150px;
-  width: 150px;
+  width: 0;
   position: fixed;
   top: 0;
   left: 150px;
@@ -399,7 +431,7 @@ nav {
   background: #003700;
   overflow-y: auto;
 }
-nav.menu-active {
+nav.vertical.menu-active {
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
   -ms-transform: translateX(0);
@@ -409,36 +441,36 @@ nav.menu-active {
   left: 150px;
 }
 @media (max-width: 770px) {
-  nav {
+  nav.vertical {
     left: 0;
   }
 }
-nav ul,
-nav li {
+nav.vertical ul,
+nav.vertical li {
   list-style: none;
 }
-nav ul {
+nav.vertical ul {
   padding-left: 10px;
 }
-nav a,
-nav a:hover,
-nav a:active,
-nav a:visited {
+nav.vertical a,
+nav.vertical a:hover,
+nav.vertical a:active,
+nav.vertical a:visited {
   color: whiteSmoke;
   text-decoration: none;
   width: 100%;
   display: block;
 }
-nav a:hover {
+nav.vertical a:hover {
   background-color: #d6d6d5;
   color: #003700;
 }
-nav li.object {
+nav.vertical li.object {
   text-transform: uppercase;
   font-size: 12px;
   margin: 20px 0 5px 0;
 }
-nav li.object li.method {
+nav.vertical li.object li.method {
   text-transform: none;
   font-size: 14px;
   margin: 5px;
@@ -456,10 +488,21 @@ nav,
 strong {
   color: #b90f00;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
 body {
-  padding-left: 150px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/triangle.jpg");
+  padding-left: 0;
   left: 0;
-  background-image: url("../images/lil_fiber.png");
   margin: 0;
   font-family: "Open Sans", sans-serif;
   font-weight: 100;
@@ -470,10 +513,6 @@ body {
   body {
     padding-left: 0;
   }
-}
-.content {
-  padding: 20px;
-  max-width: 700px;
 }
 @media (max-width: 770px) {
   .content.menu-active {
@@ -526,7 +565,7 @@ li {
 }
 p {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px 20px;
   line-height: 22px;
 }
 .map {
