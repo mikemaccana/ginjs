@@ -6,7 +6,7 @@
 @sidebar-width: 150px;
 @darkgrey: #222;
 @skin: #F3DB2D;
-
+@shadedgrey: rgba(0,0,0,0.7);
 * {
   box-sizing: border-box;
 }
@@ -30,7 +30,7 @@ a, a:hover, a:active, a:visited {
   display: none;
   top: 0;
   left: @sidebar-width;
-  background: rgba(0,0,0,0.7);
+  background: @shadedgrey;
   padding: 1em;
   @media (max-width: 770px) {
     position: fixed;
@@ -45,7 +45,7 @@ a, a:hover, a:active, a:visited {
 nav.horizontal {
   display: block;
   width: 100%;
-  background: @gingreen;
+  background: @shadedgrey;
   overflow: hidden;
   ul, li {
     list-style: none;
@@ -161,7 +161,7 @@ h1 img {
   display: block;
   width: 400px;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 
 h2 {

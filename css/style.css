@@ -391,7 +391,7 @@ a:visited {
 nav.horizontal {
   display: block;
   width: 100%;
-  background: #003700;
+  background: rgba(0, 0, 0, 0.7);
   overflow: hidden;
 }
 nav.horizontal ul,
@@ -527,7 +527,7 @@ h1 img {
   display: block;
   width: 400px;
   max-width: 100%;
-  margin: 0 auto;
+  margin: 100px auto 0 auto;
 }
 h2 {
   text-align: center;
