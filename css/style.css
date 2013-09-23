@@ -525,6 +525,7 @@ li {
   margin: 20px 0;
 }
 p {
+  text-align: center;
   margin: 10px 0;
   line-height: 22px;
 }
@@ -532,6 +533,23 @@ p {
   width: 400px;
   max-width: 100%;
   height: 400px;
+  display: block;
+  margin: 20px auto;
+}
+@media (max-width: 770px) {
+  .map {
+    width: 100%;
+  }
+}
+.venue {
+  display: block;
+  margin: 0 auto;
+  width: 750px;
+}
+@media (max-width: 770px) {
+  .venue {
+    width: 100%;
+  }
 }
 #rsvp {
   text-align: center;
