@@ -1,5 +1,6 @@
 @import "normalize.less";
 @import "fonts.less";
+
 @gingreen: #003700;
 @ginsilver: #d6d6d5;
 @ginred: #b90f00;
@@ -7,6 +8,7 @@
 @darkgrey: #222;
 @skin: #F3DB2D;
 @shadedgrey: rgba(0,0,0,0.7);
+
 * {
   box-sizing: border-box;
 }
@@ -22,6 +24,12 @@ a, a:hover, a:active, a:visited {
   -ms-transform: @string;
   -o-transform: @string;
   transform: @string;
+}
+
+nav {
+  font-family: 'Maven Pro';
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 /* ☰ button */
@@ -47,12 +55,16 @@ nav.horizontal {
   width: 100%;
   background: @shadedgrey;
   overflow: hidden;
+  text-align: center;
   ul, li {
     list-style: none;
   }
   ul {
     overflow: hidden;
     margin: 5px 0;
+    margin: 0 auto;
+    padding: 5px 0;
+    display: inline-block;
   }
   li {
     float: left;
@@ -171,7 +183,6 @@ h2 {
   color: @gingreen;
 }
 
-
 h3 {
   text-align: left;
   font-weight: 100;
@@ -207,9 +218,12 @@ li {
 }
 
 p {
-  text-align: center;
+  text-align: left;
   margin: 10px 20px;
   line-height: 22px;
+  &.intro {
+    text-align: center;
+  }
 }
 
 .map {
