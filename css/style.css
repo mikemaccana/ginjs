@@ -434,14 +434,16 @@ nav.vertical {
   background: #222222;
   overflow-y: auto;
 }
-nav.vertical.menu-active {
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-  -ms-transform: translateX(0);
-  -o-transform: translateX(0);
-  transform: translateX(0);
-  width: 150px;
-  left: 150px;
+@media (max-width: 770px) {
+  nav.vertical.menu-active {
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    width: 150px;
+    left: 150px;
+  }
 }
 @media (max-width: 770px) {
   nav.vertical {

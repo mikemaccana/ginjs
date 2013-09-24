@@ -92,9 +92,11 @@ nav.vertical {
   background: @darkgrey;
   overflow-y: auto;
   &.menu-active {
-    .transform(translateX(0));
-    width: @sidebar-width;
-    left: @sidebar-width;
+    @media (max-width: 770px) {
+      .transform(translateX(0));
+      width: @sidebar-width;
+      left: @sidebar-width;
+    }
   }
   @media (max-width: 770px) {
     left: 0;
