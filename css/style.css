@@ -433,6 +433,7 @@ nav.vertical {
   z-index: 1;
   background: #222222;
   overflow-y: auto;
+  font-size: 20px;
 }
 @media (max-width: 770px) {
   nav.vertical.menu-active {
@@ -475,7 +476,7 @@ nav.vertical li.object {
   font-size: 12px;
   margin: 20px 0 5px 0;
 }
-nav.vertical li.object li.method {
+nav.vertical li.object li.navitem {
   font-size: 14px;
   margin: 5px;
 }
