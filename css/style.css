@@ -583,6 +583,7 @@ p.intro {
   display: block;
   margin: 20px auto;
   border: 1px solid #D1D1D1;
+  background-size: cover;
   background-image: url('../images/map.png');
 }
 @media (max-width: 770px) {
