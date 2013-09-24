@@ -476,7 +476,6 @@ nav.vertical li.object {
   margin: 20px 0 5px 0;
 }
 nav.vertical li.object li.method {
-  text-transform: none;
   font-size: 14px;
   margin: 5px;
 }
@@ -583,6 +582,7 @@ p.intro {
   display: block;
   margin: 20px auto;
   border: 1px solid #D1D1D1;
+  background-image: url('../images/map.png');
 }
 @media (max-width: 770px) {
   .map {
