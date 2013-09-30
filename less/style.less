@@ -8,8 +8,11 @@
 @darkgrey: #222;
 @skin: #F3DB2D;
 @shadedgrey: rgba(0,0,0,0.7);
+@single-column-threshold: 770px;
 
-* {
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -40,7 +43,7 @@ nav {
   left: @sidebar-width;
   background: @shadedgrey;
   padding: 1em;
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     position: fixed;
     left: 0;
     display: block;
@@ -76,7 +79,7 @@ nav.horizontal {
     width: 100%;
     display: block;
   }
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     display: none;
   }
 }
@@ -93,13 +96,13 @@ nav.vertical {
   overflow-y: auto;
   font-size: 20px;
   &.menu-active {
-    @media (max-width: 770px) {
+    @media (max-width: @single-column-threshold) {
       .transform(translateX(0));
       width: @sidebar-width;
       left: @sidebar-width;
     }
   }
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     left: 0;
   }
   ul, li {
@@ -150,7 +153,6 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-image: url("../images/triangle.jpg");
-
   padding-left: 0;
   left: 0;
   margin: 0;
@@ -158,14 +160,14 @@ body {
   font-weight: 100;
   color: @darkgrey;
   overflow-x: hidden;
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     padding-left: 0;
   }
 }
 
 .content {
   &.menu-active {
-    @media (max-width: 770px) {
+    @media (max-width: @single-column-threshold) {
       .transform(translateX(@sidebar-width));
     }
   }
@@ -173,8 +175,8 @@ body {
 
 h1 img {
   display: block;
-  width: 400px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   margin: 100px auto 0 auto;
 }
 
@@ -237,7 +239,7 @@ p {
   border: 1px solid #D1D1D1;
   background-size: cover;
   background-image: url('../images/map.png');
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     width: 100%;
   }
 }
@@ -246,7 +248,7 @@ p {
   display: block;
   margin: 0 auto;
   width: 750px;
-  @media (max-width: 770px) {
+  @media (max-width: @single-column-threshold) {
     width: 100%;
   }
 }

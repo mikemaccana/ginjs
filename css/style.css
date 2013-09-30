@@ -353,7 +353,11 @@ table {
   font-weight: 400;
   src: local("Open Sans"), local("OpenSans"), url(https://themes.googleusercontent.com/static/fonts/opensans/v6/K88pR3goAWT7BTt32Z01mz8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
-* {
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 a,
@@ -530,8 +534,8 @@ body {
 }
 h1 img {
   display: block;
-  width: 400px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   margin: 100px auto 0 auto;
 }
 h2 {
