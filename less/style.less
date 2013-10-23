@@ -11,9 +11,12 @@
 @single-column-threshold: 770px;
 
 *, *:before, *:after {
+  /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  // Boxes have layout by default
+  overflow: hidden;
 }
 
 a, a:hover, a:active, a:visited {
