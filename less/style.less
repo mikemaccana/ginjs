@@ -8,6 +8,8 @@
 @skin: #F3DB2D;
 @shadedgrey: rgba(0,0,0,0.7);
 @single-column-threshold: 770px;
+@text-column-width: 600px;
+@spacing: 24px;
 
 *, *:before, *:after {
   /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
@@ -23,7 +25,6 @@ body * {
 
 a, a:hover, a:active, a:visited {
   color: @gingreen;
-  text-decoration: none;
 }
 
 .transform(@string){
@@ -36,7 +37,7 @@ a, a:hover, a:active, a:visited {
 
 nav {
   font-family: 'Lato';
-  font-size: 12px;
+  font-size: @spacing / 2;
   text-transform: uppercase;
 }
 
@@ -83,6 +84,7 @@ nav.horizontal {
     text-decoration: none;
     width: 100%;
     display: block;
+    letter-spacing: 2px;
   }
   @media (max-width: @single-column-threshold) {
     display: none;
@@ -121,6 +123,7 @@ nav.vertical {
     text-decoration: none;
     width: 100%;
     display: block;
+    letter-spacing: 2px;
   }
   a:hover {
     background-color: @ginsilver;
@@ -172,6 +175,12 @@ body {
 }
 
 .content {
+  text-align: center;
+  margin: 10px auto;
+  max-width: @text-column-width; // No super-wide
+  @media (max-width: @single-column-threshold) {
+    width: 100%;
+  }
   &.menu-active {
     @media (max-width: @single-column-threshold) {
       .transform(translateX(@sidebar-width));
@@ -187,16 +196,15 @@ h1 img {
 }
 
 h2 {
-  text-align: center;
   font-weight: 200;
   font-size: 21pt;
   color: @gingreen;
 }
 
 h3 {
-  text-align: left;
   font-weight: 200;
   font-size: 16pt;
+  padding-top: @spacing * 2;
 }
 
 h4 {
@@ -231,6 +239,7 @@ code {
 .twilio {
   width: 324px;
   height: 108px;
+  max-width: 100%;
 }
 
 li {
@@ -238,29 +247,8 @@ li {
 }
 
 p {
-  text-align: left;
   line-height: 22px;
   margin: 10px 20px;
-  max-width: 700px; // No super-wide
-  &.intro {
-    text-align: center;
-    margin: 10px auto;
-    max-width: 700px; // No super-wide
-  }
-}
-
-.map {
-  width: 50%;
-  max-width: 400px;
-  height: 400px;
-  display: block;
-  margin: 20px auto;
-  border: 1px solid #D1D1D1;
-  background-size: cover;
-  background-image: url('../images/map.png');
-  @media (max-width: @single-column-threshold) {
-    width: 100%;
-  }
 }
 
 .venue {
@@ -297,6 +285,10 @@ p {
     color: @gingreen;
     cursor: pointer;
   }
+}
+
+a.button, a.button:hover, a.button:active, a.button:visited {
+  text-decoration: none;
 }
 
 

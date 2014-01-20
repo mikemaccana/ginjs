@@ -327,7 +327,6 @@ a:hover,
 a:active,
 a:visited {
   color: #003700;
-  text-decoration: none;
 }
 nav {
   font-family: 'Lato';
@@ -383,6 +382,7 @@ nav.horizontal a:visited {
   text-decoration: none;
   width: 100%;
   display: block;
+  letter-spacing: 2px;
 }
 @media (max-width: 770px) {
   nav.horizontal {
@@ -430,6 +430,7 @@ nav.vertical a:visited {
   text-decoration: none;
   width: 100%;
   display: block;
+  letter-spacing: 2px;
 }
 nav.vertical a:hover {
   background-color: #d6d6d5;
@@ -480,6 +481,16 @@ body {
     padding-left: 0;
   }
 }
+.content {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 600px;
+}
+@media (max-width: 770px) {
+  .content {
+    width: 100%;
+  }
+}
 @media (max-width: 770px) {
   .content.menu-active {
     -webkit-transform: translateX(150px);
@@ -494,15 +505,14 @@ h1 img {
   margin: 100px auto 0 auto;
 }
 h2 {
-  text-align: center;
   font-weight: 200;
   font-size: 21pt;
   color: #003700;
 }
 h3 {
-  text-align: left;
   font-weight: 200;
   font-size: 16pt;
+  padding-top: 48px;
 }
 h4 {
   color: #003700;
@@ -531,35 +541,14 @@ code {
 .twilio {
   width: 324px;
   height: 108px;
+  max-width: 100%;
 }
 li {
   margin: 20px 0;
 }
 p {
-  text-align: left;
   line-height: 22px;
   margin: 10px 20px;
-  max-width: 700px;
-}
-p.intro {
-  text-align: center;
-  margin: 10px auto;
-  max-width: 700px;
-}
-.map {
-  width: 50%;
-  max-width: 400px;
-  height: 400px;
-  display: block;
-  margin: 20px auto;
-  border: 1px solid #D1D1D1;
-  background-size: cover;
-  background-image: url('../images/map.png');
-}
-@media (max-width: 770px) {
-  .map {
-    width: 100%;
-  }
 }
 .venue {
   display: block;
@@ -594,4 +583,10 @@ p.intro {
   background-color: #d6d6d5;
   color: #003700;
   cursor: pointer;
+}
+a.button,
+a.button:hover,
+a.button:active,
+a.button:visited {
+  text-decoration: none;
 }
