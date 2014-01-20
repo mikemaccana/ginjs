@@ -538,9 +538,21 @@ code {
   margin: 0 auto;
   text-align: center;
 }
+.sponsor {
+  width: 50%;
+  padding: 12px;
+  float: left;
+}
 .twilio {
   width: 324px;
-  height: 108px;
+  max-width: 100%;
+}
+.firework {
+  width: 275px;
+  max-width: 100%;
+}
+.lyst {
+  width: 275px;
   max-width: 100%;
 }
 li {
