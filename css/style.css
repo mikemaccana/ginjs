@@ -539,9 +539,7 @@ code {
   text-align: center;
 }
 .sponsors .sponsor {
-  width: 50%;
   padding: 12px;
-  float: left;
 }
 .sponsors .twilio {
   width: 324px;
