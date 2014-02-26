@@ -538,20 +538,20 @@ code {
   margin: 0 auto;
   text-align: center;
 }
-.sponsor {
+.sponsors .sponsor {
   width: 50%;
   padding: 12px;
   float: left;
 }
-.twilio {
+.sponsors .twilio {
   width: 324px;
   max-width: 100%;
 }
-.firework {
+.sponsors .firework {
   width: 275px;
   max-width: 100%;
 }
-.lyst {
+.sponsors .lyst {
   width: 275px;
   max-width: 100%;
 }
