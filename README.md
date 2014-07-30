@@ -1,19 +1,31 @@
-#
+# Organizing gin.js
 
-Update Website!
+## Website
 
+Checkout gh-pages branch and update it.
 
-Pick last event
-Click customize
-Change event URL to be 'ginjssomedate-'
+## Ticketing - Tito
 
-Click 'duplicate' event
-Click customize
-In details update 'title' and set 'event URL' to ginjs
+### Update old event
 
+ - Pick last event
+ - Click *customize*
+ - On 'Basics' change old event URL to be 'ginjssomedate-'
 
+### Create new event
 
-Export TSV
+ - Go to 'dashboard'
+ - Click 'duplicate' event icon (looks like paste icon)
+ - Click 'customize'
+ - In details update 'title', set 'date', and set 'event URL' to ginjs
+
+### Send email to list members
+
+Letting them know about event
+
+## Reminder email to just this month's ticket holders
+
+### Export TSV
 
 Create new Group under Events Groupset
 
