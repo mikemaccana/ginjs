@@ -1,5 +1,9 @@
 # Organizing gin.js
 
+## Book Venue
+
+ - Barrio East: call #, option 3 then 1.
+
 ## Website
 
 Checkout gh-pages branch and update it.
