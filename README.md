@@ -1,32 +1,61 @@
-#
+# Organizing gin.js
 
-Update Website!
+## Book Venue
+
+ - Barrio East: call #, option 3 then 1.
+
+## Website
+
+Checkout gh-pages branch and update it.
+
+## Ticketing - Tito
+
+### Update old event
+
+ - Pick last event
+ - Click *customize*
+ - On 'Basics' change old event URL to be 'ginjssomedate-'
+
+### Create new event
+
+ - Go to 'dashboard'
+ - Click 'duplicate' event icon (looks like paste icon). You'll now have a 'ginjs somedate copy' event
+ - Click 'customize' on left
+ - In details update 'title', set 'date', and set 'event URL' to ginjs
+
+### Send announcement email to list members
 
 
-Pick last event
-Click customize
-Change event URL to be 'ginjssomedate-'
+Letting them know about event
 
-Click 'duplicate' event
-Click customize
-In details update 'title' and set 'event URL' to ginjs
+ - Click campaigns
+ - Find an old 'announcement' campaign
+ - Click down arrow 'replicate'
+Send to entire list
+
+## Reminder email to just this month's ticket holders
+
+ - Open tito
+ - Click 'attendees' -. 'Export' -> 'Export CSV'
 
 
+Edit the file in numbers, remove all columsn except First Name, Last name, Email and Twitter. This saves a bunch of time matching fields in MailChimps painful UI.
 
-Export TSV
+ - Open MailChimp
+ - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then 'View Groups'
+ - Click 'Add Group' (down the bottom') and add a group calld 'Somemonth Someyear' for just this month
+ - Click 'import to'
+ - Click 'Upload from CSV or TXT file'
+ - Enable 'Auto update existing list'
+ - Click 'Upload List' to upload it 
+ - Match the fields when asked
 
-Create new Group under Events Groupset
+THe list should have now been imported.
 
- - Find list
-  - Down arrow import
- - Upload from TXT or CSV file
-
-Add subscribers to new group
-- Auto update existing list
-
-Click campaigns
-Click down arrow replicate
-Send to a new segment,s then pick group.
+ - Click 'campaigns'
+ - Find an old 'reminder' campaign
+ - Click down arrow 'replicate'
+ - Pick 'Send to a new segment' then pick group you just added (ie, the group for the current month)
 
 # Reminder - Day of Event
 
