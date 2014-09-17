@@ -42,20 +42,20 @@ Send to entire list
 Edit the file in numbers, remove all columsn except First Name, Last name, Email and Twitter. This saves a bunch of time matching fields in MailChimps painful UI.
 
  - Open MailChimp
- - Find list
+ - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then 'View Groups'
+ - Click 'Add Group' (down the bottom') and add a group calld 'Somemonth Someyear' for just this month
+ - Click 'import to'
+ - Click 'Upload from CSV or TXT file'
+ - Enable 'Auto update existing list'
+ - Click 'Upload List' to upload it 
+ - Match the fields when asked
 
- - Make a group for just this month
+THe list should have now been imported.
 
- - Down arrow import
- - Upload from TXT or CSV file
- - Click the group you just created
- - Tick 'Add subscribers to new group'
-- Auto update existing list
-
- - Click campaigns
+ - Click 'campaigns'
  - Find an old 'reminder' campaign
  - Click down arrow 'replicate'
-Send to a new segment,s then pick group.
+ - Pick 'Send to a new segment' then pick group you just added (ie, the group for the current month)
 
 # Reminder - Day of Event
 
