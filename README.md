@@ -19,15 +19,21 @@ Checkout gh-pages branch and update it.
 ### Create new event
 
  - Go to 'dashboard'
- - Click 'duplicate' event icon (looks like paste icon)
- - Click 'customize'
+ - Click 'duplicate' event icon (looks like paste icon). You'll now have a 'ginjs somedate copy' event
+ - Click 'customize' on left
  - In details update 'title', set 'date', and set 'event URL' to ginjs
 
-### Send email to list members
+### Send announcement email to list members
 
-## Reminder email to just this month's ticket holders
 
 Letting them know about event
+
+ - Click campaigns
+ - Find an old 'announcement' campaign
+ - Click down arrow 'replicate'
+Send to entire list
+
+## Reminder email to just this month's ticket holders
 
  - Open tito
  - Click 'attendees' -. 'Export' -> 'Export CSV'
