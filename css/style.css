@@ -485,11 +485,11 @@ p {
     .venue {
       width: 100%; } }
 
-#rsvp {
+.register {
   text-align: center;
   max-width: 160px;
   margin: 0px auto; }
-  #rsvp .button {
+  .register .button {
     display: block;
     font-weight: lighter;
     font-size: 20px;
@@ -498,10 +498,10 @@ p {
     background-color: #003700;
     text-align: center;
     color: white; }
-  #rsvp .button:active {
+  .register .button:active {
     border: 1px solid #5B992B;
     border-bottom: 1px solid #538C27; }
-  #rsvp .button:hover {
+  .register .button:hover {
     background-color: #d6d6d5;
     color: #003700;
     cursor: pointer; }
