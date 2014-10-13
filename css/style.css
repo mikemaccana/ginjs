@@ -286,6 +286,7 @@ table {
 *, *:before, *:after {
   /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
   -moz-box-sizing: border-box;
+  /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
   box-sizing: border-box; }
 
 body * {
@@ -293,6 +294,78 @@ body * {
 
 a, a:hover, a:active, a:visited {
   color: #003700; }
+
+body, nav, .nav-link, .content {
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out; }
+
+strong {
+  color: #b90f00; }
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/triangle.jpg");
+  padding-left: 0;
+  left: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  color: #222;
+  overflow-x: hidden; }
+  @media (max-width: 770px) {
+    body {
+      padding-left: 0; } }
+
+li {
+  margin: 20px 0; }
+
+p {
+  line-height: 22px;
+  margin: 10px 20px; }
+
+a.button, a.button:hover, a.button:active, a.button:visited {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 20px;
+  margin-right: 20px; }
+
+h1 img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto 0 auto; }
+
+h2 {
+  font-weight: 200;
+  font-size: 21pt;
+  color: #003700; }
+
+h3 {
+  font-weight: 200;
+  font-size: 16pt;
+  padding-top: 48px; }
+
+h4 {
+  color: #003700;
+  font-size: 10pt;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 20px;
+  margin-bottom: 5px; }
+
+h5 {
+  font-size: 14pt;
+  margin: 20px 0 10px 0;
+  font-weight: 200; }
+
+pre {
+  border-left: 4px solid #003700;
+  padding-left: 5px; }
+
+code {
+  font: 14px/18px 'InconsolataMedium', Arial, sans-serif; }
 
 nav {
   font-family: 'Lato';
@@ -384,32 +457,6 @@ nav.vertical {
       font-size: 14px;
       margin: 5px; }
 
-body, nav, .nav-link, .content {
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out; }
-
-strong {
-  color: #b90f00; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 20px;
-  margin-right: 20px; }
-
-body {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url("../images/triangle.jpg");
-  padding-left: 0;
-  left: 0;
-  margin: 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 200;
-  color: #222;
-  overflow-x: hidden; }
-  @media (max-width: 770px) {
-    body {
-      padding-left: 0; } }
-
 .content {
   text-align: center;
   margin: 10px auto;
@@ -423,42 +470,6 @@ body {
       -ms-transform: translateX(150px);
       transform: translateX(150px); } }
 
-h1 img {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  margin: 100px auto 0 auto; }
-
-h2 {
-  font-weight: 200;
-  font-size: 21pt;
-  color: #003700; }
-
-h3 {
-  font-weight: 200;
-  font-size: 16pt;
-  padding-top: 48px; }
-
-h4 {
-  color: #003700;
-  font-size: 10pt;
-  text-transform: uppercase;
-  font-weight: 900;
-  padding-top: 20px;
-  margin-bottom: 5px; }
-
-h5 {
-  font-size: 14pt;
-  margin: 20px 0 10px 0;
-  font-weight: 200; }
-
-pre {
-  border-left: 4px solid #003700;
-  padding-left: 5px; }
-
-code {
-  font: 14px/18px 'InconsolataMedium', Arial, sans-serif; }
-
 .sponsors {
   margin: 0 auto;
   text-align: center; }
@@ -469,13 +480,6 @@ code {
       background-color: #da1651;
       padding: 24px;
       max-width: 100%; }
-
-li {
-  margin: 20px 0; }
-
-p {
-  line-height: 22px;
-  margin: 10px 20px; }
 
 .venue {
   display: block;
@@ -505,6 +509,3 @@ p {
     background-color: #d6d6d5;
     color: #003700;
     cursor: pointer; }
-
-a.button, a.button:hover, a.button:active, a.button:visited {
-  text-decoration: none; }

@@ -13,8 +13,6 @@ $spacing: 24px;
 
 *, *:before, *:after {
   /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -28,11 +26,92 @@ a, a:hover, a:active, a:visited {
 }
 
 @mixin transform($string) {
-  -webkit-transform: $string;
-  -moz-transform: $string;
-  -ms-transform: $string;
-  -o-transform: $string;
   transform: $string;
+}
+
+body, nav, .nav-link, .content {
+  transition: all 0.2s ease-out;
+}
+
+strong {
+  color: $ginred;
+}
+
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-image: url("../images/triangle.jpg");
+  padding-left: 0;
+  left: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 200;
+  color: $darkgrey;
+  overflow-x: hidden;
+  @media (max-width: $single-column-threshold) {
+    padding-left: 0;
+  }
+}
+
+li {
+  margin: 20px 0;
+}
+
+p {
+  line-height: 22px;
+  margin: 10px 20px;
+}
+
+a.button, a.button:hover, a.button:active, a.button:visited {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+h1 img {
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  margin: 100px auto 0 auto;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 21pt;
+  color: $gingreen;
+}
+
+h3 {
+  font-weight: 200;
+  font-size: 16pt;
+  padding-top: $spacing * 2;
+}
+
+h4 {
+  color: $gingreen;
+  font-size: 10pt;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+h5 {
+  font-size: 14pt;
+  margin: 20px 0 10px 0;
+  font-weight: 200;
+}
+
+pre {
+  border-left: 4px solid $gingreen;
+  padding-left: 5px;
+}
+
+code {
+  font: 14px/18px 'InconsolataMedium', Arial, sans-serif;
 }
 
 nav {
@@ -140,40 +219,6 @@ nav.vertical {
   }
 }
 
-body, nav, .nav-link, .content {
-  -webkit-transition: all 0.2s ease-out;
-  -moz-transition: all 0.2s ease-out;
-  -ms-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-
-}
-
-strong {
-  color: $ginred;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-body {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-image: url("../images/triangle.jpg");
-  padding-left: 0;
-  left: 0;
-  margin: 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 200;
-  color: $darkgrey;
-  overflow-x: hidden;
-  @media (max-width: $single-column-threshold) {
-    padding-left: 0;
-  }
-}
-
 .content {
   text-align: center;
   margin: 10px auto;
@@ -186,49 +231,6 @@ body {
       @include transform(translateX($sidebar-width));
     }
   }
-}
-
-h1 img {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  margin: 100px auto 0 auto;
-}
-
-h2 {
-  font-weight: 200;
-  font-size: 21pt;
-  color: $gingreen;
-}
-
-h3 {
-  font-weight: 200;
-  font-size: 16pt;
-  padding-top: $spacing * 2;
-}
-
-h4 {
-  color: $gingreen;
-  font-size: 10pt;
-  text-transform: uppercase;
-  font-weight: 900;
-  padding-top: 20px;
-  margin-bottom: 5px;
-}
-
-h5 {
-  font-size: 14pt;
-  margin: 20px 0 10px 0;
-  font-weight: 200;
-}
-
-pre {
-  border-left: 4px solid $gingreen;
-  padding-left: 5px;
-}
-
-code {
-  font: 14px/18px 'InconsolataMedium', Arial, sans-serif;
 }
 
 .sponsors {
@@ -246,15 +248,6 @@ code {
     }
   }
 
-}
-
-li {
-  margin: 20px 0;
-}
-
-p {
-  line-height: 22px;
-  margin: 10px 20px;
 }
 
 .venue {
@@ -292,9 +285,4 @@ p {
     cursor: pointer;
   }
 }
-
-a.button, a.button:hover, a.button:active, a.button:visited {
-  text-decoration: none;
-}
-
 
