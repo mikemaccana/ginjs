@@ -64,10 +64,6 @@ p {
   }
 }
 
-a.button, a.button:hover, a.button:active, a.button:visited {
-  text-decoration: none;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
   margin-right: 20px;
@@ -252,27 +248,35 @@ nav.vertical {
   text-align: center;
   max-width: 160px;
   margin: 0px auto;
-  .button {
-    display: block;
-    font-weight: lighter;
-    font-size: 20px;
-    padding: 15px;
-    border: 0;
-    background-color: $gingreen;
-    text-align: center;
-    @include brandish;
+  display: block;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 15px;
+  border: 0;
+  background-color: $gingreen;
+  text-align: center;
+  @include brandish;
+  color: white;
+  box-shadow: 0 0 1em #AAA;
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;
     color: white;
   }
 
-  .button:active {
+  &:active {
+    color: white;
     border: 1px solid #5B992B;
     border-bottom: 1px solid #538C27;
+    text-decoration: none;
   }
 
-  .button:hover {
-    background-color: $ginsilver;
-    color: $gingreen;
+  &:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+    color: white;
     cursor: pointer;
+    text-decoration: none;
   }
 }
 

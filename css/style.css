@@ -344,9 +344,6 @@ p {
     font-size: 16pt;
     line-height: 21pt; }
 
-a.button, a.button:hover, a.button:active, a.button:visited {
-  text-decoration: none; }
-
 h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
   margin-right: 20px;
@@ -506,23 +503,34 @@ nav.vertical {
 .register {
   text-align: center;
   max-width: 160px;
-  margin: 0px auto; }
-  .register .button {
-    display: block;
-    font-weight: lighter;
-    font-size: 20px;
-    padding: 15px;
-    border: 0;
-    background-color: #003700;
-    text-align: center;
-    font-family: "URW Topic W01 Bold";
-    text-transform: uppercase;
-    font-weight: 200;
+  margin: 0px auto;
+  display: block;
+  font-weight: lighter;
+  font-size: 20px;
+  padding: 15px;
+  border: 0;
+  background-color: #003700;
+  text-align: center;
+  font-family: "URW Topic W01 Bold";
+  text-transform: uppercase;
+  font-weight: 200;
+  color: white;
+  box-shadow: 0 0 1em #AAA;
+  text-decoration: none; }
+  .register:visited {
+    text-decoration: none;
     color: white; }
-  .register .button:active {
+  .register:active {
+    color: white;
     border: 1px solid #5B992B;
-    border-bottom: 1px solid #538C27; }
-  .register .button:hover {
-    background-color: #d6d6d5;
-    color: #003700;
-    cursor: pointer; }
+    border-bottom: 1px solid #538C27;
+    text-decoration: none; }
+  .register:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: white;
+    cursor: pointer;
+    text-decoration: none; }
