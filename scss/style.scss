@@ -149,16 +149,14 @@ nav.horizontal {
     width: $single-column-threshold;
     display: block;
     a, a:hover, a:active, a:visited {
-      height: 50px;
-      max-width: 100px;
+      height: @spacing * 2;
+      width: 25%;
       display: block;
       float: left;
-      margin: 0 30px;
       @include brandish;
       font-size: 14pt;
       color: whiteSmoke;
       text-decoration: none;
-      width: 100%;
       display: block;
       letter-spacing: 2px;
     }

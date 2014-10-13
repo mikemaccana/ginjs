@@ -415,18 +415,16 @@ nav.horizontal {
     width: 770px;
     display: block; }
     nav.horizontal .links a, nav.horizontal .links a:hover, nav.horizontal .links a:active, nav.horizontal .links a:visited {
-      height: 50px;
-      max-width: 100px;
+      height: 25px;
+      width: 25%;
       display: block;
       float: left;
-      margin: 0 30px;
       font-family: "URW Topic W01 Bold";
       text-transform: uppercase;
       font-weight: 200;
       font-size: 14pt;
       color: whiteSmoke;
       text-decoration: none;
-      width: 100%;
       display: block;
       letter-spacing: 2px; }
   @media (max-width: 770px) {
