@@ -539,24 +539,12 @@ code {
   text-align: center;
 }
 .sponsors .sponsor {
-  width: 50%;
+  width: 100%;
   padding: 12px;
-  float: left;
 }
-.sponsors .twilio {
-  width: 324px;
-  max-width: 100%;
-}
-.twilio {
-  width: 324px;
-  max-width: 100%;
-}
-.firework {
-  width: 275px;
-  max-width: 100%;
-}
-.lyst {
-  width: 300px;
+.sponsors .sponsor.pebblecode img {
+  background-color: #da1651;
+  padding: 24px;
   max-width: 100%;
 }
 li {
