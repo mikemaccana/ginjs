@@ -283,6 +283,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Palatino LT W01 Light";
+  src: url("/fonts/palatinoLight.eot?#iefix");
+  src: url("/fonts/palatinoLight.eot?#iefix") format("eot"), url("/fonts/palatinoLight.woff") format("woff"), url("/fonts/palatinoLight.ttf") format("truetype"), url("/fonts/palatinoLight.svg#swiggity-swooty") format("svg"); }
+
+@font-face {
+  font-family: "PalatinoLTW01-LightItal";
+  src: url("/fonts/palatinoLightItalic.eot?#iefix");
+  src: url("/fonts/palatinoLightItalic.eot?#iefix") format("eot"), url("/fonts/palatinoLightItalic.woff") format("woff"), url("/fonts/palatinoLightItalic.ttf") format("truetype"), url("/fonts/palatinoLightItalic.svg#swiggity-swooty") format("svg"); }
+
+@font-face {
+  font-family: "URW Topic W01 Bold";
+  font-weight: normal;
+  src: url("/fonts/urwTopic.eot?#iefix");
+  src: url("/fonts/urwTopic.eot?#iefix") format("eot"), url("/fonts/urwTopic.woff") format("woff"), url("/fonts/urwTopic.ttf") format("truetype"), url("/fonts/urwTopic.svg#swiggity-swooty") format("svg"); }
+
 *, *:before, *:after {
   /* Ensure padding is inside boxes. See http://paulirish.com/2012/box-sizing-border-box-ftw */
   -moz-box-sizing: border-box;
@@ -329,7 +345,8 @@ a.button, a.button:hover, a.button:active, a.button:visited {
 
 h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
-  margin-right: 20px; }
+  margin-right: 20px;
+  font-family: "PalatinoLTW01-LightItal"; }
 
 h1 img {
   display: block;
@@ -338,6 +355,7 @@ h1 img {
   margin: 100px auto 0 auto; }
 
 h2 {
+  font-family: "URW Topic W01 Bold";
   font-weight: 200;
   font-size: 21pt;
   color: #003700; }

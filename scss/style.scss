@@ -1,4 +1,5 @@
 @import "normalize.scss";
+@import "fonts.scss";
 
 $gingreen: #003700;
 $ginsilver: #d6d6d5;
@@ -69,16 +70,20 @@ a.button, a.button:hover, a.button:active, a.button:visited {
 h1, h2, h3, h4, h5, h6 {
   margin-left: 20px;
   margin-right: 20px;
+  font-family: "PalatinoLTW01-LightItal";
 }
 
-h1 img {
-  display: block;
-  width: 100%;
-  max-width: 500px;
-  margin: 100px auto 0 auto;
+h1 {
+  img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto 0 auto;
+  }
 }
 
 h2 {
+  font-family: "URW Topic W01 Bold";
   font-weight: 200;
   font-size: 21pt;
   color: $gingreen;

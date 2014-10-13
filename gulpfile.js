@@ -5,7 +5,7 @@ var gulp = require('gulp'),
   livereload = require('gulp-livereload'),
   nodemon = require('gulp-nodemon'),
   jshint = require('gulp-jshint'),
-  connect = require('gulp-connect')
+  connect = require('gulp-connect');
 
 var path = require('path');
 
