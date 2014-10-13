@@ -356,6 +356,7 @@ h1 img {
 
 h2 {
   font-family: "URW Topic W01 Bold";
+  text-transform: uppercase;
   font-weight: 200;
   font-size: 21pt;
   color: #003700; }
