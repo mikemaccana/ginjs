@@ -5,7 +5,7 @@ $gingreen: #003700;
 $ginsilver: #d6d6d5;
 $ginred: #b90f00;
 $sidebar-width: 150px;
-$darkgrey: #222;
+$darkgrey: #0A0A0A;
 $skin: #F3DB2D;
 $shadedgrey: rgba(0,0,0,0.7);
 
@@ -31,10 +31,6 @@ body, nav, .nav-link, .content {
   transition: all 0.2s ease-out;
 }
 
-strong {
-  color: $ginred;
-}
-
 body {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -56,8 +52,16 @@ li {
 }
 
 p {
-  line-height: 22px;
   margin: 10px 20px;
+  font-family: "Palatino LT W01 Light", sans-serif;
+  font-size: 14pt;
+  line-height: 19pt;
+  -webkit-font-smoothing: antialiased;
+  &.intro {
+    font-style: oblique;
+    font-size: 16pt;
+    line-height: 21pt;
+  }
 }
 
 a.button, a.button:hover, a.button:active, a.button:visited {
@@ -149,7 +153,7 @@ nav.horizontal {
     width: $single-column-threshold;
     display: block;
     a, a:hover, a:active, a:visited {
-      height: @spacing * 2;
+      height: $spacing;
       width: 25%;
       display: block;
       float: left;
@@ -224,7 +228,6 @@ nav.vertical {
   text-align: center;
   .sponsor {
     width: 100%;
-    padding: $spacing / 2;
     &.pebblecode {
       img {
         background-color: #da1651;
@@ -257,6 +260,7 @@ nav.vertical {
     border: 0;
     background-color: $gingreen;
     text-align: center;
+    @include brandish;
     color: white;
   }
 

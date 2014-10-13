@@ -315,9 +315,6 @@ body, nav, .nav-link, .content {
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out; }
 
-strong {
-  color: #b90f00; }
-
 body {
   background-size: 100%;
   background-repeat: no-repeat;
@@ -327,7 +324,7 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   font-weight: 200;
-  color: #222;
+  color: #0A0A0A;
   overflow-x: hidden; }
   @media (max-width: 770px) {
     body {
@@ -337,8 +334,15 @@ li {
   margin: 20px 0; }
 
 p {
-  line-height: 22px;
-  margin: 10px 20px; }
+  margin: 10px 20px;
+  font-family: "Palatino LT W01 Light", sans-serif;
+  font-size: 14pt;
+  line-height: 19pt;
+  -webkit-font-smoothing: antialiased; }
+  p.intro {
+    font-style: oblique;
+    font-size: 16pt;
+    line-height: 21pt; }
 
 a.button, a.button:hover, a.button:active, a.button:visited {
   text-decoration: none; }
@@ -415,7 +419,7 @@ nav.horizontal {
     width: 770px;
     display: block; }
     nav.horizontal .links a, nav.horizontal .links a:hover, nav.horizontal .links a:active, nav.horizontal .links a:visited {
-      height: 25px;
+      height: 24px;
       width: 25%;
       display: block;
       float: left;
@@ -439,7 +443,7 @@ nav.vertical {
   left: 150px;
   bottom: 0;
   z-index: 1;
-  background: #222;
+  background: #0A0A0A;
   overflow-y: auto;
   font-size: 20px; }
   @media (max-width: 770px) {
@@ -485,8 +489,7 @@ nav.vertical {
   margin: 0 auto;
   text-align: center; }
   .sponsors .sponsor {
-    width: 100%;
-    padding: 12px; }
+    width: 100%; }
     .sponsors .sponsor.pebblecode img {
       background-color: #da1651;
       padding: 24px;
@@ -512,6 +515,9 @@ nav.vertical {
     border: 0;
     background-color: #003700;
     text-align: center;
+    font-family: "URW Topic W01 Bold";
+    text-transform: uppercase;
+    font-weight: 200;
     color: white; }
   .register .button:active {
     border: 1px solid #5B992B;
