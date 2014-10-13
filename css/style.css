@@ -362,6 +362,8 @@ h2 {
   color: #003700; }
 
 h3 {
+  font-family: "URW Topic W01 Bold";
+  text-transform: uppercase;
   font-weight: 200;
   font-size: 16pt;
   padding-top: 48px; }
@@ -378,13 +380,6 @@ h5 {
   font-size: 14pt;
   margin: 20px 0 10px 0;
   font-weight: 200; }
-
-pre {
-  border-left: 4px solid #003700;
-  padding-left: 5px; }
-
-code {
-  font: 14px/18px 'InconsolataMedium', Arial, sans-serif; }
 
 nav {
   font-family: 'Lato';
@@ -413,23 +408,27 @@ nav.horizontal {
   background: rgba(0, 0, 0, 0.7);
   overflow: hidden;
   text-align: center; }
-  nav.horizontal ul, nav.horizontal li {
-    list-style: none; }
-  nav.horizontal ul {
+  nav.horizontal .links {
     overflow: hidden;
-    margin: 5px 0;
     margin: 0 auto;
     padding: 5px 0;
-    display: inline-block; }
-  nav.horizontal li {
-    float: left;
-    margin: 0 30px; }
-  nav.horizontal a, nav.horizontal a:hover, nav.horizontal a:active, nav.horizontal a:visited {
-    color: whiteSmoke;
-    text-decoration: none;
-    width: 100%;
-    display: block;
-    letter-spacing: 2px; }
+    width: 770px;
+    display: block; }
+    nav.horizontal .links a, nav.horizontal .links a:hover, nav.horizontal .links a:active, nav.horizontal .links a:visited {
+      height: 50px;
+      max-width: 100px;
+      display: block;
+      float: left;
+      margin: 0 30px;
+      font-family: "URW Topic W01 Bold";
+      text-transform: uppercase;
+      font-weight: 200;
+      font-size: 14pt;
+      color: whiteSmoke;
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      letter-spacing: 2px; }
   @media (max-width: 770px) {
     nav.horizontal {
       display: none; } }
@@ -455,11 +454,13 @@ nav.vertical {
   @media (max-width: 770px) {
     nav.vertical {
       left: 0; } }
-  nav.vertical ul, nav.vertical li {
-    list-style: none; }
-  nav.vertical ul {
-    padding-left: 10px; }
   nav.vertical a, nav.vertical a:hover, nav.vertical a:active, nav.vertical a:visited {
+    font-family: "URW Topic W01 Bold";
+    text-transform: uppercase;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 16pt;
+    padding: 12px 0;
     color: whiteSmoke;
     text-decoration: none;
     width: 100%;
@@ -468,13 +469,6 @@ nav.vertical {
   nav.vertical a:hover {
     background-color: #d6d6d5;
     color: #003700; }
-  nav.vertical li.object {
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: 20px 0 5px 0; }
-    nav.vertical li.object li.navitem {
-      font-size: 14px;
-      margin: 5px; }
 
 .content {
   text-align: center;

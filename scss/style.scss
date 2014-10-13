@@ -8,6 +8,7 @@ $sidebar-width: 150px;
 $darkgrey: #222;
 $skin: #F3DB2D;
 $shadedgrey: rgba(0,0,0,0.7);
+
 $single-column-threshold: 770px;
 $text-column-width: 600px;
 $spacing: 24px;
@@ -24,10 +25,6 @@ body * {
 
 a, a:hover, a:active, a:visited {
   color: $gingreen;
-}
-
-@mixin transform($string) {
-  transform: $string;
 }
 
 body, nav, .nav-link, .content {
@@ -82,16 +79,20 @@ h1 {
   }
 }
 
-h2 {
+@mixin brandish() {
   font-family: "URW Topic W01 Bold";
   text-transform: uppercase;
   font-weight: 200;
+}
+
+h2 {
+  @include brandish;
   font-size: 21pt;
   color: $gingreen;
 }
 
 h3 {
-  font-weight: 200;
+  @include brandish;
   font-size: 16pt;
   padding-top: $spacing * 2;
 }
@@ -109,15 +110,6 @@ h5 {
   font-size: 14pt;
   margin: 20px 0 10px 0;
   font-weight: 200;
-}
-
-pre {
-  border-left: 4px solid $gingreen;
-  padding-left: 5px;
-}
-
-code {
-  font: 14px/18px 'InconsolataMedium', Arial, sans-serif;
 }
 
 nav {
@@ -150,26 +142,26 @@ nav.horizontal {
   background: $shadedgrey;
   overflow: hidden;
   text-align: center;
-  ul, li {
-    list-style: none;
-  }
-  ul {
+  .links {
     overflow: hidden;
-    margin: 5px 0;
     margin: 0 auto;
     padding: 5px 0;
-    display: inline-block;
-  }
-  li {
-    float: left;
-    margin: 0 30px;
-  }
-  a, a:hover, a:active, a:visited {
-    color: whiteSmoke;
-    text-decoration: none;
-    width: 100%;
+    width: $single-column-threshold;
     display: block;
-    letter-spacing: 2px;
+    a, a:hover, a:active, a:visited {
+      height: 50px;
+      max-width: 100px;
+      display: block;
+      float: left;
+      margin: 0 30px;
+      @include brandish;
+      font-size: 14pt;
+      color: whiteSmoke;
+      text-decoration: none;
+      width: 100%;
+      display: block;
+      letter-spacing: 2px;
+    }
   }
   @media (max-width: $single-column-threshold) {
     display: none;
@@ -189,7 +181,7 @@ nav.vertical {
   font-size: 20px;
   &.menu-active {
     @media (max-width: $single-column-threshold) {
-      @include transform(translateX(0));
+      transform: translateX(0);
       width: $sidebar-width;
       left: $sidebar-width;
     }
@@ -197,13 +189,12 @@ nav.vertical {
   @media (max-width: $single-column-threshold) {
     left: 0;
   }
-  ul, li {
-    list-style: none;
-  }
-  ul {
-    padding-left: 10px;
-  }
+
   a, a:hover, a:active, a:visited {
+    @include brandish;
+    text-transform: uppercase;
+    font-size: 16pt;
+    padding: $spacing / 2 0;
     color: whiteSmoke;
     text-decoration: none;
     width: 100%;
@@ -213,15 +204,6 @@ nav.vertical {
   a:hover {
     background-color: $ginsilver;
     color: $gingreen;
-  }
-  li.object {
-    text-transform: uppercase;
-    font-size: 12px;
-    margin: 20px 0 5px 0;
-    li.navitem {
-      font-size: 14px;
-      margin: 5px;
-    }
   }
 }
 
@@ -234,7 +216,7 @@ nav.vertical {
   }
   &.menu-active {
     @media (max-width: $single-column-threshold) {
-      @include transform(translateX($sidebar-width));
+      transform: translateX($sidebar-width);
     }
   }
 }
