@@ -1,13 +1,13 @@
 @import "normalize.scss";
 @import "fonts.scss";
 
-$gingreen: #003700;
-$ginsilver: #d6d6d5;
-$ginred: #b90f00;
+$gin-green: #003700;
+$gin-silver: #d6d6d5;
+$gin-red: #b90f00;
 $sidebar-width: 150px;
-$darkgrey: #0A0A0A;
+$dark-grey: #0A0A0A;
 $skin: #F3DB2D;
-$shadedgrey: rgba(0,0,0,0.7);
+$shaded-grey: rgba(0,0,0,0.7);
 
 $single-column-threshold: 770px;
 $text-column-width: 600px;
@@ -24,7 +24,7 @@ body * {
 }
 
 a, a:hover, a:active, a:visited {
-  color: $gingreen;
+  color: $gin-green;
 }
 
 body, nav, .nav-link, .content {
@@ -40,7 +40,7 @@ body {
   margin: 0;
   font-family: "Lato", sans-serif;
   font-weight: 200;
-  color: $darkgrey;
+  color: $dark-grey;
   overflow-x: hidden;
   @media (max-width: $single-column-threshold) {
     padding-left: 0;
@@ -89,7 +89,7 @@ h1 {
 h2 {
   @include brandish;
   font-size: 21pt;
-  color: $gingreen;
+  color: $gin-green;
 }
 
 h3 {
@@ -99,7 +99,7 @@ h3 {
 }
 
 h4 {
-  color: $gingreen;
+  color: $gin-green;
   font-size: 10pt;
   text-transform: uppercase;
   font-weight: 900;
@@ -125,7 +125,7 @@ nav {
   display: none;
   top: 0;
   left: $sidebar-width;
-  background: $shadedgrey;
+  background: $shaded-grey;
   padding: 1em;
   @media (max-width: $single-column-threshold) {
     position: fixed;
@@ -140,7 +140,7 @@ nav {
 nav.horizontal {
   display: block;
   width: 100%;
-  background: $shadedgrey;
+  background: $shaded-grey;
   overflow: hidden;
   text-align: center;
   .links {
@@ -175,7 +175,7 @@ nav.vertical {
   left: $sidebar-width;
   bottom: 0;
   z-index: 1;
-  background: $darkgrey;
+  background: $dark-grey;
   overflow-y: auto;
   font-size: 20px;
   &.menu-active {
@@ -201,8 +201,8 @@ nav.vertical {
     letter-spacing: 2px;
   }
   a:hover {
-    background-color: $ginsilver;
-    color: $gingreen;
+    background-color: $gin-silver;
+    color: $gin-green;
   }
 }
 
@@ -254,7 +254,7 @@ nav.vertical {
   font-size: 20px;
   padding: 15px;
   border: 0;
-  background-color: $gingreen;
+  background-color: $gin-green;
   text-align: center;
   @include brandish;
   color: white;
