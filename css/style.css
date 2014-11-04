@@ -483,6 +483,18 @@ nav.vertical {
       -ms-transform: translateX(150px);
       transform: translateX(150px); } }
 
+.whoscoming .attendees .attendee {
+  float: left;
+  text-align: center;
+  margin: 4px; }
+  .whoscoming .attendees .attendee a {
+    text-decoration: none; }
+    .whoscoming .attendees .attendee a img {
+      width: 48px;
+      height: 48px; }
+  .whoscoming .attendees .attendee p.others {
+    clear: both; }
+
 .sponsors {
   margin: 0 auto;
   text-align: center; }

@@ -220,6 +220,27 @@ nav.vertical {
   }
 }
 
+.whoscoming {
+  .attendees {
+    .attendee {
+      float: left;
+      text-align: center;
+      margin: 4px;
+      a {
+        text-decoration: none;
+        img {
+          width: 48px;
+          height: 48px;
+        }
+      }
+      p.others {
+        clear: both;
+      }
+    }
+  }
+}
+
+
 .sponsors {
   margin: 0 auto;
   text-align: center;
