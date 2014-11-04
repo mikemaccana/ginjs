@@ -63,8 +63,6 @@ csvParse(fileContents, {}, function(err, output){
 		// Nerd.
 		data.forEach(function(datum){
 			whosComing.twitter.push({
-				link: datum.url,
-				name: datum.name,
 				handle: datum.screen_name,
 				avatar: datum.profile_image_url
 			})
