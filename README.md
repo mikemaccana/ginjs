@@ -44,7 +44,7 @@ Edit the file in numbers, remove all columsn except First Name, Last name, Email
 
  - Open MailChimp
  - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then 'View Groups'
- - Click 'Add Group' (down the bottom') and add a group calld 'SomeMonth SomeYear' for just this month
+ - Click 'Add Group' (down the bottom') and add a group called 'SomeMonth SomeYear' for just this month
  - Click 'import to'
  - Click 'Upload from CSV or TXT file'
  - Enable 'Auto update existing list'
