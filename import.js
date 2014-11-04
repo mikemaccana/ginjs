@@ -3,7 +3,7 @@ var fs = require('fs'),
 	csvParse = require('csv-parse'),
 	agave = require('agave'),
 	util = require('util'),
-	jf = require('jsonfile'),
+	jsonFile = require('jsonfile'),
 	twitter = require('twitter');
 
 var twit = new twitter({
@@ -68,7 +68,7 @@ csvParse(fileContents, {}, function(err, output){
 			})
 		})
 
-		jf.writeFile('attendees.json', whosComing, function(err) {
+		jsonFile.writeFile('attendees.json', whosComing, function(err) {
 			if (err) {
 				return log(err)
 			}

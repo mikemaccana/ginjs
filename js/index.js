@@ -25,8 +25,5 @@ requirejs(["ie9classlist", "agave", "text!/templates/attendees.mustache", "text!
     template: attendeesTemplate
   })
 
-  log('x', attendees)
-
-
 })
 
