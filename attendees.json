@@ -46,7 +46,7 @@
     },
     {
       "handle": "ForbesLindesay",
-      "avatar": "http://pbs.twimg.com/profile_images/529649354697887744/KSPGESE0_normal.jpeg"
+      "avatar": "http://pbs.twimg.com/profile_images/530374137081262080/VZBHduyT_normal.jpeg"
     },
     {
       "handle": "frontdevde",
@@ -63,10 +63,6 @@
     {
       "handle": "ilyaporopudas",
       "avatar": "http://pbs.twimg.com/profile_images/67599899/ilya_80x80_normal.jpg"
-    },
-    {
-      "handle": "inrilievo",
-      "avatar": "http://pbs.twimg.com/profile_images/452135952715350016/bSxLSLI__normal.jpeg"
     },
     {
       "handle": "iqrow",
@@ -113,6 +109,10 @@
       "avatar": "http://pbs.twimg.com/profile_images/517350334721585153/DcHzyL1W_normal.jpeg"
     },
     {
+      "handle": "M6_D6",
+      "avatar": "http://pbs.twimg.com/profile_images/2780995069/a025561194f870f81062eb9bd6aa3ee0_normal.png"
+    },
+    {
       "handle": "magalhini",
       "avatar": "http://pbs.twimg.com/profile_images/521315546759839744/dYGSqxaj_normal.jpeg"
     },
@@ -145,10 +145,6 @@
       "avatar": "http://pbs.twimg.com/profile_images/378800000580515889/e03d3b4a455de22689b0310ac33093ac_normal.png"
     },
     {
-      "handle": "ninjabiscuit",
-      "avatar": "http://pbs.twimg.com/profile_images/440973678101028864/M-KEpVkr_normal.jpeg"
-    },
-    {
       "handle": "objectCreate",
       "avatar": "http://pbs.twimg.com/profile_images/378800000053709773/a897d655505f4e7e3de60e3ec04fcb1d_normal.jpeg"
     },
@@ -173,8 +169,12 @@
       "avatar": "http://pbs.twimg.com/profile_images/519971903600328707/8pSd66nX_normal.jpeg"
     },
     {
+      "handle": "shapeshed",
+      "avatar": "http://pbs.twimg.com/profile_images/378800000574655512/4be116fc37df2e5d7f0d00976c339799_normal.jpeg"
+    },
+    {
       "handle": "StevieBuckley",
-      "avatar": "http://pbs.twimg.com/profile_images/462191313853501440/rDOQk92n_normal.jpeg"
+      "avatar": "http://pbs.twimg.com/profile_images/530303502476906496/I6zulcY4_normal.jpeg"
     },
     {
       "handle": "sturadnidge",
@@ -199,7 +199,11 @@
     {
       "handle": "tiny_m",
       "avatar": "http://pbs.twimg.com/profile_images/487235658591637504/9XrFoPfG_normal.jpeg"
+    },
+    {
+      "handle": "zlog",
+      "avatar": "http://pbs.twimg.com/profile_images/2910642953/433cc475a605cd2b8a7a8b2e9fc2791b_normal.jpeg"
     }
   ],
-  "others": 9
+  "others": 11
 }

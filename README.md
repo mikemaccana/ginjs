@@ -38,9 +38,7 @@ Send to entire list
 
  - Open tito
  - Click 'attendees' -> 'Export' -> 'Export CSV'
-
-
-Edit the file in numbers, remove all columsn except First Name, Last name, Email and Twitter. This saves a bunch of time matching fields in MailChimps painful UI.
+ - Edit the file in Numbers, remove all columns except 'First Name', 'Last name', 'Email' and 'Twitter'. This saves a bunch of time matching fields in MailChimps painful UI. Export back out to CSV again.
 
  - Open MailChimp
  - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then 'View Groups'
