@@ -504,6 +504,9 @@ nav.vertical {
       background-color: #da1651;
       padding: 24px;
       max-width: 100%; }
+    .sponsors .sponsor.lyst img {
+      padding: 24px;
+      max-width: 50%; }
 
 .venue {
   display: block;

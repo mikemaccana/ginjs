@@ -41,7 +41,7 @@ Send to entire list
  - Edit the file in Numbers, remove all columns except 'First Name', 'Last name', 'Email' and 'Twitter'. This saves a bunch of time matching fields in MailChimps painful UI. Export back out to CSV again.
 
  - Open MailChimp
- - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then 'View Groups'
+ - Click 'Lists' on the left, pick the 'GinJS' list, then 'Manage Subscribers' then 'Groups' then (beside 'Events') View Groups'
  - Click 'Add Group' (down the bottom') and add a group called 'SomeMonth SomeYear' for just this month
  - Click 'import to'
  - Click 'Upload from CSV or TXT file'
@@ -52,9 +52,10 @@ Send to entire list
 THe list should have now been imported.
 
  - Click 'campaigns'
- - Find an old 'reminder' campaign
+ - Find an old (preferably recent) 'reminder' campaign
  - Click down arrow 'replicate'
- - Pick 'Send to a new segment' then pick group you just added (ie, the group for the current month)
+ - Pick 'Send to a new segment' then pick 'Group:Events' and the group you just added (ie, the group for the current month)
+- Click 'Nxt; (bottom right), rename to 'reminder for (current month and year)'
 
 # Reminder - Day of Event
 
