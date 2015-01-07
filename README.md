@@ -21,7 +21,7 @@ Checkout gh-pages branch and update it.
 ### Create new event
 
  - Go to 'dashboard'
- - Click 'duplicate' event icon (looks like paste icon). You'll now have a 'ginjs somedate copy' event
+ - Click 'duplicate' event icon (on the right, looks like paste icon). You'll now have a 'ginjs somedate copy' event
  - Click 'customize' on left
  - In details update 'title', fix the name, set the proper date, and set 'event URL' to 'ginjs'
 
@@ -32,7 +32,9 @@ Letting them know about event
  - Click campaigns
  - Find an old 'announcement' campaign
  - Click down arrow 'replicate'
-Send to entire list
+ - Send to entire list
+ - Chnage name to 'gin.js MONTH YEAR announce'
+ - Change subject to be something itneresting@ 
 
 ## Reminder email to just this month's ticket holders
 
@@ -54,6 +56,7 @@ THe list should have now been imported.
  - Click 'campaigns'
  - Find an old (preferably recent) 'reminder' campaign
  - Click down arrow 'replicate'
+ - You are now in a wizard! See th 'next' in the bottom right corner.
  - Pick 'Send to a new segment' then pick 'Group:Events' and the group you just added (ie, the group for the current month)
 - Click 'Nxt; (bottom right), rename to 'reminder for (current month and year)'
 
