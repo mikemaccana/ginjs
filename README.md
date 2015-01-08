@@ -32,9 +32,12 @@ Letting them know about event
  - Click campaigns
  - Find an old 'announcement' campaign
  - Click down arrow 'replicate'
- - Send to entire list
- - Chnage name to 'gin.js MONTH YEAR announce'
- - Change subject to be something itneresting@ 
+ - Click 'Send to entire list'
+ - Change name to 'gin.js MONTH YEAR announce'
+ - Change subject to be something itneresting
+ - Update the email - remember the very top text!
+ - Send a test email
+- Send a real email
 
 ## Reminder email to just this month's ticket holders
 
