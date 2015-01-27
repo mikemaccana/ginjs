@@ -59,8 +59,16 @@ csvParse(fileContents, {}, function(err, output){
 
 	handles.sort(alphabetical)
 
-	twit.get('/users/lookup.json', {screen_name:handles.join(',')}, function(data, res) {
-		// Nerd.
+    log('handles', handles.join(','))
+
+	twit.get('/users/lookup.json', {screen_name:handles.join(',')}, function(error, data, response) {
+
+        if ( error ) {
+            log('Error getting twitter handles', error)
+            return
+        }
+
+        // Nerd.
 		data.forEach(function(datum){
 			whosComing.twitter.push({
 				handle: datum.screen_name,
