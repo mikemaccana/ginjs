@@ -39,6 +39,13 @@ Letting them know about event
  - Send a test email
 - Send a real email
 
+## Update attendees list 
+
+ - Visit https://ti.to/mikemaccana/ginjs/admin/tickets
+ - Export a CSV and overwrite import.csv
+ - Run import.js
+ - mv attendees.json json
+
 ## Reminder email to just this month's ticket holders
 
  - Open tito
