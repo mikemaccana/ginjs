@@ -49,10 +49,6 @@
       "avatar": "http://pbs.twimg.com/profile_images/512393014837125120/yRU3NWnl_normal.png"
     },
     {
-      "handle": "ForbesLindesay",
-      "avatar": "http://pbs.twimg.com/profile_images/560165551327424512/27whX9Zd_normal.jpeg"
-    },
-    {
       "handle": "frontdevde",
       "avatar": "http://pbs.twimg.com/profile_images/557672326607536128/h0qRCZzw_normal.jpeg"
     },
@@ -85,16 +81,16 @@
       "avatar": "http://pbs.twimg.com/profile_images/3041902138/8dbb8399de7050f992b441d5282b87bc_normal.jpeg"
     },
     {
+      "handle": "jimisidhu",
+      "avatar": "http://pbs.twimg.com/profile_images/537506105539051520/CcAvWlXj_normal.jpeg"
+    },
+    {
       "handle": "JofArnold",
       "avatar": "http://pbs.twimg.com/profile_images/378800000779568478/dfc6f0e5e906ed6dfd358006986c4db7_normal.png"
     },
     {
       "handle": "lennym",
       "avatar": "http://pbs.twimg.com/profile_images/463936364623298560/93t11evj_normal.jpeg"
-    },
-    {
-      "handle": "LGrayland",
-      "avatar": "http://pbs.twimg.com/profile_images/555472349416284160/LeT8wuJ__normal.jpeg"
     },
     {
       "handle": "magalhini",
@@ -111,6 +107,10 @@
     {
       "handle": "mikemaccana",
       "avatar": "http://pbs.twimg.com/profile_images/553176202408898560/KN9Cb-fW_normal.jpeg"
+    },
+    {
+      "handle": "Nexii",
+      "avatar": "http://pbs.twimg.com/profile_images/43935002/Plywood_Uber_normal.jpg"
     },
     {
       "handle": "nikeshashar",
@@ -149,10 +149,6 @@
       "avatar": "http://pbs.twimg.com/profile_images/535570237383770112/9I6zgN1I_normal.jpeg"
     },
     {
-      "handle": "rowanbeentje",
-      "avatar": "http://pbs.twimg.com/profile_images/1168052490/rowan-beentje-2_bigger_normal.png"
-    },
-    {
       "handle": "siddvee",
       "avatar": "http://pbs.twimg.com/profile_images/435747893186555906/FJPfmnVs_normal.jpeg"
     },
@@ -173,5 +169,5 @@
       "avatar": "http://pbs.twimg.com/profile_images/480005627171700736/1yN4NNju_normal.jpeg"
     }
   ],
-  "others": 11
+  "others": 12
 }
