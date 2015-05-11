@@ -12,32 +12,34 @@ Checkout gh-pages branch and update it.
 
 ### Update old event
 
- - Visit tito.io
- - Click the |||| menu in the top left corner - this is a actually a hamburger menu with a shitty icon.
+ - Visit https://ti.to
  - Pick last event
  - Click *customize*
- - On 'Basics' change old event URL to be 'ginjssomedate-'
+ - On 'Basics' change old event URL to be 'ginjs-somedate'
 
 ### Create new event
 
- - Go to 'dashboard'
- - Click 'duplicate' event icon (on the right, looks like paste icon). You'll now have a 'ginjs somedate copy' event
- - Click 'customize' on left
- - In details update 'title', fix the name, set the proper date, and set 'event URL' to 'ginjs'
+Still on the old event page
+
+ - Click 'duplicate this event' on the top right. After a moment you'll have 'old event copy'
+ - Click 'customize'
+ - In Basics update 'title', fix the name, set the new date, and set 'event URL' to 'ginjs'
 
 ### Send announcement email to list members
 
 Letting them know about event
 
- - Click campaigns
- - Find an old 'announcement' campaign
- - Click down arrow 'replicate'
- - Click 'Send to entire list'
+ - Open https://mailchimp.com/
+ - Click 'Campaigns'
+ - Find an old 'announcement' campaign. 
+ - Click the down arrow beside the old campaign and select 'replicate'
+ - Click 'Send to entire list' and hit next (in bottom right corner)
  - Change name to 'gin.js MONTH YEAR announce'
- - Change subject to be something itneresting
- - Update the email - remember the very top text!
- - Send a test email
-- Send a real email
+ - Change subject to be something interesting
+ - Hit next (in bottom right corner)
+ - Update the email - remember the very top text as wel as the non-HTML version!
+ - Send a test email (and check it)
+ - Send a real email
 
 ## Update attendees list 
 
