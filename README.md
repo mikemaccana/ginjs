@@ -45,7 +45,7 @@ Letting them know about event
 
  - Visit https://ti.to/mikemaccana/ginjs/admin/tickets/dash
  - Export a CSV and overwrite import.csv
- - Run import.js
+ - Run ./import.js
  - mv attendees.json json
 
 ## Reminder email to just this month's ticket holders
