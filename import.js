@@ -20,8 +20,7 @@ var log = console.log.bind(console),
 		console.log(JSON.stringify(object, null, 2))
 	}
 
-// Tito files export as 'Little-endian UTF-16 Unicode text, with very long lines'
-var fileContents = fs.readFileSync('import.csv','ucs2')
+var fileContents = fs.readFileSync('import.csv','utf-8')
 fileContents = fileContents.replace(/"/g, '');
 
 var alphabetical = function(a, b) {
@@ -46,6 +45,8 @@ csvParse(fileContents, {}, function(err, output){
 
 	var notOnTwitterCount = 0;
 
+    log('output', output)
+
 	output.forEach(function(line, index){
 		if ( index !== 0 ) {
 			var handle = line[21]
@@ -64,7 +65,7 @@ csvParse(fileContents, {}, function(err, output){
 	twit.get('/users/lookup.json', {screen_name:handles.join(',')}, function(error, data, response) {
 
         if ( error ) {
-            log('Error getting twitter handles', error)
+            log('Error getting twitter handles',  error[0].code, error[0].message)
             return
         }
 
