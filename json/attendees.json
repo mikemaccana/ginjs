@@ -57,6 +57,14 @@
       "avatar": "http://pbs.twimg.com/profile_images/461138611023265793/brCzANEE_normal.jpeg"
     },
     {
+      "handle": "hughfdjackson",
+      "avatar": "http://pbs.twimg.com/profile_images/378800000799906426/e80a653301c8da57fac32b92b8507725_normal.jpeg"
+    },
+    {
+      "handle": "iqrow",
+      "avatar": "http://pbs.twimg.com/profile_images/590912288984592385/nG_IFgUQ_normal.jpg"
+    },
+    {
       "handle": "jamiecopeland",
       "avatar": "http://pbs.twimg.com/profile_images/1756425991/dog_normal.jpg"
     },
@@ -67,6 +75,10 @@
     {
       "handle": "jeshuamaxey",
       "avatar": "http://pbs.twimg.com/profile_images/3041902138/8dbb8399de7050f992b441d5282b87bc_normal.jpeg"
+    },
+    {
+      "handle": "jimisidhu",
+      "avatar": "http://pbs.twimg.com/profile_images/537506105539051520/CcAvWlXj_normal.jpeg"
     },
     {
       "handle": "jupvic",
@@ -87,6 +99,14 @@
     {
       "handle": "nikeshashar",
       "avatar": "http://pbs.twimg.com/profile_images/3059352250/7b3e452a8930c334f333e274fa05494e_normal.png"
+    },
+    {
+      "handle": "objectCreate",
+      "avatar": "http://pbs.twimg.com/profile_images/592266691188494337/V-mouIEE_normal.jpg"
+    },
+    {
+      "handle": "onejamesbrowne",
+      "avatar": "http://pbs.twimg.com/profile_images/1267010248/173683_513340203_6062125_n_normal.jpg"
     },
     {
       "handle": "qleonetti",
@@ -114,7 +134,7 @@
     },
     {
       "handle": "tbrd",
-      "avatar": "http://pbs.twimg.com/profile_images/583272839438069760/CWYgB09__normal.png"
+      "avatar": "http://pbs.twimg.com/profile_images/600297573728034816/GhULJd74_normal.png"
     },
     {
       "handle": "The_Steve_Man",
@@ -137,5 +157,5 @@
       "avatar": "http://pbs.twimg.com/profile_images/480005627171700736/1yN4NNju_normal.jpeg"
     }
   ],
-  "others": 11
+  "others": 15
 }
