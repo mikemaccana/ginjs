@@ -62,7 +62,7 @@
     },
     {
       "handle": "iqrow",
-      "avatar": "http://pbs.twimg.com/profile_images/590912288984592385/nG_IFgUQ_normal.jpg"
+      "avatar": "http://pbs.twimg.com/profile_images/603215672693370880/JBXGmkPn_normal.jpg"
     },
     {
       "handle": "jamiecopeland",
@@ -85,6 +85,10 @@
       "avatar": "http://pbs.twimg.com/profile_images/530280819965698048/i2MR15rQ_normal.png"
     },
     {
+      "handle": "Lexil",
+      "avatar": "http://pbs.twimg.com/profile_images/75675048/display_normal.jpg"
+    },
+    {
       "handle": "MarioGintili",
       "avatar": "http://pbs.twimg.com/profile_images/586496816549466112/KsrkTFMc_normal.jpg"
     },
@@ -95,6 +99,10 @@
     {
       "handle": "mfujica",
       "avatar": "http://pbs.twimg.com/profile_images/2524188757/53fzlr8c96axtul13oph_normal.jpeg"
+    },
+    {
+      "handle": "MikeMJHarris",
+      "avatar": "http://pbs.twimg.com/profile_images/577071309680615424/wCeyvj_I_normal.jpeg"
     },
     {
       "handle": "nikeshashar",
@@ -157,5 +165,5 @@
       "avatar": "http://pbs.twimg.com/profile_images/480005627171700736/1yN4NNju_normal.jpeg"
     }
   ],
-  "others": 15
+  "others": 17
 }

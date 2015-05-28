@@ -44,7 +44,7 @@ Letting them know about event
 ## Update attendees list 
 
  - Visit https://ti.to/mikemaccana/ginjs/admin/tickets/dash
- - Export a CSV, and name the saved file 'import.csv'
+ - Export a CSV, and name the saved file 'import.csv' (overwriting the old one)
  - Run ./import.js
  - mv attendees.json json
 
