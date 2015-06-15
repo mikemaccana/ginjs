@@ -507,6 +507,9 @@ nav.vertical {
     .sponsors .sponsor.lyst img {
       padding: 24px;
       max-width: 50%; }
+    .sponsors .sponsor.yplan img {
+      padding: 24px;
+      max-width: 50%; }
 
 .venue {
   display: block;
