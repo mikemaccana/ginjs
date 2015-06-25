@@ -13,9 +13,10 @@
   "dependencies": {
     "agave": "^0.4.6",
     "csv-parse": "0.0.6",
-    "gulp-connect": "^2.0.6",
+    "gulp-connect": "https://registry.npmjs.org/gulp-connect/-/gulp-connect-2.0.6.tgz",
     "gulp-sass": "^1.1.0",
     "jsonfile": "^2.0.0",
+    "node-sass": "^3.2.0",
     "twitter": "^1.2.1"
   }
 }
