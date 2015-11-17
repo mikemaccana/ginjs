@@ -241,29 +241,15 @@ nav.vertical {
 }
 
 
+
 .sponsors {
   margin: 0 auto;
   text-align: center;
   .sponsor {
     width: 100%;
-    &.pebblecode {
-      img {
-        background-color: #da1651;
-        padding: 24px;
-        max-width: 100%;
-      }
-    }
-    &.lyst {
-      img {
-        padding: 24px;
-        max-width: 50%;
-      }
-    }
-    &.yplan {
-      img {
-        padding: 24px;
-        max-width: 50%;
-      }
+    img {
+      padding: 24px;
+      width: 100%;
     }
   }
 
