@@ -39,7 +39,9 @@ Letting them know about event
  - Change name to 'gin.js MONTH YEAR announce'
  - Change subject to be something interesting
  - Hit next (in bottom right corner)
- - Update the email - remember the very top text as wel as the non-HTML version!
+ - Update the email - remember the very top text
+ - Hit next (in bottom right corner)
+ - Update the the non-HTML version!
  - Send a test email (and check it)
  - Send a real email
 
@@ -57,25 +59,27 @@ Letting them know about event
  - Edit the file in Numbers, remove all columns except 'First Name', 'Last name', 'Order Email' and 'Twitter'. This saves a bunch of time matching fields in MailChimps painful UI. Export back out to CSV again.
 
  - Open MailChimp
- - Click 'Lists' on the top, pick the 'GinJS' list, then 'Manage Subscribers' from the dropdown on the right, then 'Groups' then (on the right) 'View Groups'
- - Scrol to the bottom, click 'Add Group' and add a group called 'SomeMonth SomeYear' for just this month
+ - Click 'Lists' on the top, pick the 'GinJS' list, then 'Manage Subscribers' from the dropdown on the right
+ - Click 'Groups' then (on the right) 'View Groups'
+ - Scroll to the bottom, click 'Add Group' and add a group called 'SomeMonth SomeYear' for just this month
  - Click 'import to'
  - Click 'Upload from CSV or TXT file'
  - Pick the CSV file
  - Enable 'Auto update existing list'
  - Click 'Upload List' to upload it
  - Match the fields when asked
+ - Import to 'subscribed'
 
 The list should have now been imported.
 
  - Click 'campaigns'
  - Find an old (preferably recent) 'reminder' campaign, then click the down arrow beside it and select 'replicate'
  - You are now in a wizard! Note the 'next' in the bottom right corner.
- - Pick 'Send to a group or new segment' then pick 'Group:Events' and the group you just added (ie, the group for the current month)
+ - Pick 'Send to a group or new segment' then pick 'Group:Events' and the group you just imported the CSV to (ie, the group for the current month)
  - Click 'Next' (bottom right), rename to 'reminder for (current month and year)'
- - Update the title, hit next
+ - Update the title and subject, hit next
  - Update the copy! Note particularly the sponsor changing.
  - Regenerate the plain text from the HTML 
  - Send!
- - Hiugh five!
+ - High five!
 

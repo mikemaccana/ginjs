@@ -49,7 +49,7 @@ csvParse(fileContents, {}, function(err, output){
 
 	output.forEach(function(line, index){
 		if ( index !== 0 ) {
-			var handle = line[21]
+			var handle = line[0]
 			if ( handle && handle !== '-' ) {
 				handles.push(handle.strip('@'))
 			} else {
